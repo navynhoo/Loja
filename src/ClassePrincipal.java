@@ -10,7 +10,7 @@ public class ClassePrincipal {
       Scanner scan1 = new Scanner (System.in);
     
         System.out.print ("Nome: ");
-        carro.nome = scan1.next ();
+       carro.setNome(scan1.next());
                 
         System.out.print ("Marca: ");
         carro.marca = scan1.next ();
